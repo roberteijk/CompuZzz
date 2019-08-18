@@ -54,7 +54,7 @@ class Gui {
     }
 
     /**
-     * Creates a tempfile for the custom program icon. This way it's safe for an executable a JAR.
+     * Creates a tempfile for the custom program icon. This way it's safe for an executable JAR.
      */
     private void getIcon() {
         try {

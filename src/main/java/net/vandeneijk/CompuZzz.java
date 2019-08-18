@@ -7,7 +7,7 @@ public class CompuZzz {
      * @param args
      */
     public static void main(String[] args) {
-        Gui.getInstance(); // Starts GUI but doesn't safe a reference because it wouldn't be used here anyway.
+        Gui.getInstance();
 
         // Starts the main timer function in a separate daemon thread.
         Thread threadForTickTock = new Thread(new TickTock());
